@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakshana N - AI Engineer & Full Stack Developer</title>
+    <meta name="description" content="Computer Science student specializing in AI, Web Development, and IoT. Top 10 at IIT Madras Hackathon.">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=IBM+Plex+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        accent: {
+                            blue: '#60a5fa',
+                            violet: '#a78bfa',
+                            teal: '#2dd4bf'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Theme Toggle -->
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+            <i id="theme-icon" class="fas fa-sun"></i>
+        </button>
+        
+        <!-- Loading -->
+        <div id="loading" class="min-h-screen flex items-center justify-center">
+            <div class="text-accent-blue text-xl">Loading...</div>
+        </div>
+    </div>
+
+    <!-- Portfolio JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
