@@ -43,18 +43,18 @@ const portfolioData = {
         status: "Completed",
         category: "AI/ML"
       },
-      {
-        id: 3,
-        title: "Real-Time Cybersecurity Dashboard",
-        subtitle: "Threat Monitoring & Visualization System",
-        problem: "Organizations need quick identification of security threats and trends to enable proactive mitigation strategies.",
-        approach: "Architected a full-stack dashboard using Node.js backend and Chart.js for data visualization. Implemented incident simulation modules and real-time threat monitoring to provide actionable security insights.",
-        tech: ["Node.js", "HTML/CSS", "JavaScript", "Chart.js", "JSON"],
-        outcome: "Delivered an interactive security overview enabling rapid threat identification and trend analysis for cybersecurity teams.",
-        team: 1,
-        status: "Completed",
-        category: "Cybersecurity"
-      }
+     {
+  id: 3,
+  title: "Hybrid Deep Learning–Based QR Code Cyberattack Detection System",
+  subtitle: "Real-Time QR Threat Detection Platform",
+  problem: "Users often scan QR codes without knowing whether they lead to phishing websites, malware downloads, or other malicious destinations, creating significant cybersecurity risks.",
+  approach: "Developed a hybrid detection system that combines CNN-based QR image analysis, URL feature engineering, and Random Forest redirect-chain modeling. The platform analyzes QR codes before users access the target webpage and classifies them as malicious, phishing, or benign in real time.",
+  tech: ["Python", "PyTorch", "scikit-learn", "OpenCV", "Pillow", "pyzbar", "Requests", "FastAPI"],
+  outcome: "Achieved high detection accuracy with lower processing latency compared to standalone CNN/LSTM approaches. Delivered a modular and deployable prototype capable of effectively identifying QR-based phishing and malware attacks.",
+  team: 3,
+  status: "Completed",
+  category: "Cybersecurity/AI"
+}
     ],
     
     hackathons: [
@@ -127,10 +127,10 @@ const portfolioData = {
     
     leadership: [
       {
-        role: "Office Bearer",
+        role: "General Treasurer",
         organization: "GNU/Linux User Group Of TCE(GLUGOT)",
         college: "Thiagarajar College of Engineering",
-        activities: "Organized 'Pystar' coding event on HackerRank, 'DB DON' database event in offline"
+        activities: "Organized 'Pystar' coding event on HackerRank, 'DB DON' database event in offline and more tech events"
       }
     ],
     
@@ -138,7 +138,7 @@ const portfolioData = {
       degree: "B.E Computer Science and Engineering",
       college: "Thiagarajar College of Engineering",
       university: "Anna University (Autonomous)",
-      cgpa: "8.46*",
+      cgpa: "8.48*",
       year: "2023 - 2027",
     },
     {
