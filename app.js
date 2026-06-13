@@ -258,7 +258,7 @@ class PortfolioApp {
               <a href="#contact" class="glass-card px-5 md:px-7 py-2.5 md:py-3 font-semibold hover:glow-effect transition-all text-sm md:text-base">
                 <i class="fas fa-paper-plane mr-2"></i>Get in touch
               </a>
-              <a href="https://drive.google.com/file/d/1BEd0Kn4WxfSzLQd1-YEYhzcklh7N-np_/view" target="_blank" class="border border-accent-violet/30 px-5 md:px-7 py-2.5 md:py-3 rounded-2xl text-accent-violet font-semibold hover:bg-accent-violet/10 transition-all text-sm md:text-base">
+              <a href="https://drive.google.com/file/d/1EJY1jmhMy4hn9zSI4ZVeu3jm8xEVaM8E/view?usp=sharing" target="_blank" class="border border-accent-violet/30 px-5 md:px-7 py-2.5 md:py-3 rounded-2xl text-accent-violet font-semibold hover:bg-accent-violet/10 transition-all text-sm md:text-base">
                 <i class="fas fa-file-alt mr-2"></i>View Resume
               </a>
               <a href="#projects" class="border border-accent-blue/30 px-5 md:px-7 py-2.5 md:py-3 rounded-2xl text-accent-blue font-semibold hover:bg-accent-blue/10 transition-all text-sm md:text-base">
